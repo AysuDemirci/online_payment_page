@@ -1,0 +1,271 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+*{background-color: #eee;}
+
+.payment-grid{
+    
+  display: grid;
+  grid-template-columns:auto auto;
+  justify-content: center;
+  align-items: center;
+border-radius: 10px;
+row-gap: 15px;
+column-gap: 15px;
+}
+.payment{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 98vh;
+    column-gap: 18px;
+    
+}
+
+.grid-item{
+    border:1px solid lightgray;
+    padding: 15px;
+    flex-grow: 1;
+    flex-basis: 200;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+     border-radius: 10px;
+}
+.payment-installment{
+    border-radius: 10px;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+}
+.payment-installment-info{
+    padding:20px 60px 20px 60px;
+    display: grid;
+    grid-template-columns: auto ;
+    border-radius: 10px;
+}
+
+
+.card-info{
+    display: grid;
+    grid-template-columns:auto auto;
+    column-gap:15px;
+    padding:10px 60px 20px 60px;
+   
+}
+
+input{
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    margin-top: 10px;
+    padding:5px;
+    font-size: 15px;
+}
+.info{
+   
+    width: 9.4rem;
+}
+
+.payment-titles{
+    background-color: #b13a3a;
+    padding: 10px 10px 10px 20px;
+    color: #eee;
+    font-size: large;
+   
+}
+.payment-title{
+    background-color: #b13a3a9c;
+    padding: 10px 0px 10px 20px ; 
+    color: #eee;
+    font-size: large;
+    margin-top:0px;
+    margin-bottom:0px;
+}
+
+
+.grid-2{
+    border: 1px solid lightgray;
+    padding: 25px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+margin-top: -11rem;
+    justify-content: center;
+    align-items: center;
+
+}
+/* .open{
+    margin-top: -11rem;
+} */
+.open2{
+    margin-top: -8.5rem;
+}
+h3{
+    margin-top:3px;
+    color: #b13a3a;
+    
+}
+.order-hr{
+    margin-top: 0px;
+}
+.payment-installment-title{
+    text-align:center ;
+}
+
+
+hr{
+    border-color: lightgray;  
+}
+
+
+.payment-button{
+    width: 180px;
+    border: 1px solid #b13a3a;
+    background: #b13a3a;
+    color: #eee;
+    height: 35px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+
+}
+.payment-button:disabled{
+    background-color: lightgray;
+    border-color: lightgray;
+}
+.installment-section{
+    border-radius: 0px;
+    
+}
+
+
+.thead{
+    padding: 20px;
+     text-align: left;
+}
+
+td{
+    border-bottom: 1px solid  #ddd;
+    padding-left: 20px;
+    text-align: left;
+}
+th{
+    border-bottom: 1px solid  #ddd;
+    text-align: left;
+}
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    background-color: #eee;
+   
+}
+.highlighted{
+    color: #b13a3a;
+}
+.table{
+    padding-bottom: 5px;
+}
+.installment-option{
+    padding:20px 0px 10px 25px;
+}
+
+#color{
+    accent-color: #b13a3a;
+  
+}
+
+.order-sum{
+    display: flex;
+    column-gap: 15px;
+
+}
+.cart-icon{
+    font-size: 1.7rem;
+    color: #b13a3a;
+}
+.order{
+    display: flex;
+    justify-content: space-between;
+   margin-bottom: -8px;
+}
+.orders{
+    display: flex;
+    justify-content: left;
+column-gap: 5px;
+}
+.order-checkbox{
+    width: 17px;
+}
+
+.payment-installment-button{
+    border: none;
+    font-size: 15px;
+    color: #b13a3a;
+    text-decoration: underline;
+    margin-left: -5px;
+    cursor: pointer;
+}
+
+@media (max-width:721px){
+
+    .payment-grid{
+        grid-template-columns: auto;
+        row-gap: 10px;
+    }
+
+    .grid-2{
+    margin-top: 0;
+        width:340px;
+        letter-spacing: 0.5px;
+        order: 2;
+    }
+    .payment-installment-info{
+        padding:20px;
+    }
+    .card-info{
+        padding:10px 20px 20px 20px;
+    }
+    .payment-button{
+        width: 180px;
+        letter-spacing: 1px;
+    }
+    body{
+        font-size: 0.75rem;
+    }
+    .payment-button{
+        font-size: 0.75rem;
+        letter-spacing: 2px;
+        width: 150px;
+        justify-content: center;
+    }
+    .order-p{
+        margin-top:17px;
+    }
+    .open1{
+        margin-top: -14rem;
+    }
+    .open3{
+        margin-top: 0rem;
+    }
+    .open4{
+        margin-top: -10rem;
+    }
+    .payment-installment-button{
+        font-size: 0.75rem;
+    }
+    .open2{
+        margin-top: 0;
+    }
+    .installment-section {
+        order: 1;
+      }
+    
+}
+
+
+
+
+
+
+
+
+
